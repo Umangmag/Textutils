@@ -1,0 +1,35 @@
+first we just used  bootstrap js and bootstrap css in index.html file present inside public folder
+
+then we used bootstrap component (navbar) in app.js 
+
+in app.js after copying navbar component we did some changes
+
+className instead of class
+href = "/" instead of "#"
+using </> for those which dont have c losing symbol
+
+[NOW TALK ABOUT PROPS AND PROPTYPES]  
+
+ we made navbar component inside navbar.js , ther we use prop and the value of those props was written inside app.js when that component is used
+
+ we made another component inside textform.js there we use state and made value of textarea as state variable that can be changed only using settext update function 
+
+ there we use 2 event handler 1st for "click event" when i click button 2nd for "change event" when we change the value of textarea since value is controlled by state variable we need to change value only using settext and that can be done by onchange attribute having event handler function
+
+ then inside click event the event handler function converts the text to uppercase when i click button
+
+ we made 1 more component About.js used some event handler and used style attribute 
+
+ in chrome we can use $0.style.bgcolor= 
+
+ in jsx we use style ={mystyle} as inline css where mystyle is an object having color like thing as key see about.js
+
+ then it improved dark mode refactored app component make mode(state variable) as global inside app js
+
+ then we used switch in that we made handletoggle event handler to change mode (dark or light)
+
+ then we use ternary operators to change text colour if dark mode and text colour if light mode
+
+now in lec 13 we used alert component made alert as state variable this variable is an object that can be given value using setAlert. we are giving values using ShowAlertfunction
+
+we used react router its many element like route, link for seamless navigation through components withouit full page reload unlike < a href> we use <link to> element of router replacing a href 
