@@ -33,3 +33,6 @@ using </> for those which dont have c losing symbol
 now in lec 13 we used alert component made alert as state variable this variable is an object that can be given value using setAlert. we are giving values using ShowAlertfunction
 
 we used react router its many element like route, link for seamless navigation through components withouit full page reload unlike < a href> we use <link to> element of router replacing a href 
+
+now we deployed our site on github pages and on remote server
+
